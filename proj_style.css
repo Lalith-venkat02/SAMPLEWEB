@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;}
+    body{
+        background-color: antiquewhite
+    }
+#Head{
+    width: 80%;
+    background-color: rgb(249, 82, 63);
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+#menu a {
+   border: 2px solid black;
+   color:brown;
+   text-decoration: none;
+   background-color: aqua;
+   margin:20px;
+   margin-right: auto;
+   padding: 5px;
+}
+#menu{ 
+    background-color: rgba(185, 166, 90, 0.804);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 50px;
+}
+#imgg{
+    display: block;
+   justify-content: center;
+   align-items: center;
+   border:2px solid black;
+   margin-left: 20%;
+   margin-right: 20%;
+    color:rgb(0, 0, 0);
+    margin-bottom:05vh;
+    text-align: center;
+    width: auto;
+    height:400px;
+    background-image: url(VVIT_logo.svg.png);
+    background-position:center;
+    background-clip: content-box;
+    background-attachment:scroll ;
+    background-size: cover;
+    overflow: auto;
+
+}
+.material-symbols-outlined{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+#cont{
+    padding:15px;
+}
+#discriptions aside{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    height: auto;
+}
+#discriptions section{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    height: auto;
+}#discriptions article{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    height: auto;
+}
+#discriptions h3{
+    background-color: aquamarine;
+    color: blue;
+    text-decoration:underline;
+    min-height: 6vh;
+    padding: 5px;
+}
+#ft {
+    margin: 10px;
+    display: flex;
+    border: 2px solid rgb(255, 109, 109);
+    color:wheat;
+    background-color: rgb(132, 132, 132);
+    padding: 15px;
+}
